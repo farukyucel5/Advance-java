@@ -5,6 +5,7 @@ public class Customer {
     String name;
     String surname;
 
+
     @Override
     public String toString() {
         return "Customer{" +
@@ -14,7 +15,7 @@ public class Customer {
                 '}';
     }
 
-    Customer(int id, String name, String surname)
+    public Customer(int id, String name, String surname)
     {
         this.id=id;
         this.name=name;
